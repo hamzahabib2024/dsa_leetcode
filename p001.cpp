@@ -1,3 +1,4 @@
+// here we will merge two sorted linked lists and forms a new linked list
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -65,13 +66,11 @@ public:
  
                 head = Insert(head,list2->val);
                 list2 = list2->next;
-                // return head;
             }
             else if (list2 == nullptr)
             {
                 head = Insert(head,list1->val);
                 list1 = list1->next;
-                // return head;
             }
             else if (list1->val<=list2->val)
             {
