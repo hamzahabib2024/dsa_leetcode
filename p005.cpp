@@ -58,6 +58,9 @@ public:
 
     ListNode* removeElements(ListNode* head, int val) 
     {
+        if (head == nullptr)
+        return head;
+        
         while(head != nullptr && head->data == val)
         {
             ListNode* temp = head;
