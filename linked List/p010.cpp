@@ -49,6 +49,9 @@ public:
         while(head != nullptr)
         {
             result = (result<<1) | head->data;
+            //OR
+            //we can use this logic i mean it is the more clear form of the above logic but the same thing
+            // result = result*2 + head->data;
             head = head->next;
         }
         return result;
