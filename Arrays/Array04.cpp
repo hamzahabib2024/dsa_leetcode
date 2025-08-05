@@ -26,7 +26,7 @@ vector<int> sortArrayByParity(vector<int>& nums)
     }
     return numsB;
 }
-vector<int> sortArrayByParityEfficiently(vector<int>& nums)
+vector<int> sortArrayByParityEfficiently(vector<int>& nums) //it is efficient but gives unordered array
 {
     int i = 0;
     int j = nums.size()-1;
@@ -54,7 +54,7 @@ int main()
     nums.push_back(3);
     nums.push_back(6);
 
-    vector<int> k = sortArrayByParityEfficiently(nums);
+    vector<int> k = sortArrayByParity(nums);
 
     for(int i = 0;i<k.size();i++)
     {
