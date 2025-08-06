@@ -1,5 +1,6 @@
 //349.intersection of two arrays
 // find the intersection element of the two arrays 
+// intersection of the array is same as that of the sets 
 
 #include <iostream>
 #include <vector>
