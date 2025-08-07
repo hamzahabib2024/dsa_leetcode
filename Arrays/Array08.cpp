@@ -1,4 +1,4 @@
-
+// find weather the array is Monotonic or not
 
 #include <iostream>
 #include <vector>
