@@ -6,7 +6,8 @@ using namespace std;
 
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {
+    int missingNumber(vector<int>& nums) 
+    {
         int n = nums.size();
         int expectedSum = n * (n + 1) / 2;
         int actualSum = 0;
@@ -25,9 +26,9 @@ int main() {
     vector<int> nums2 = {0, 1};
     vector<int> nums3 = {9,6,4,2,3,5,7,0,1};
 
-    cout << sol.missingNumber(nums1) << endl;  // 2
-    cout << sol.missingNumber(nums2) << endl;  // 2
-    cout << sol.missingNumber(nums3) << endl;  // 8
+    cout << sol.missingNumber(nums1) << endl;
+    cout << sol.missingNumber(nums2) << endl;  
+    cout << sol.missingNumber(nums3) << endl; 
 
     return 0;
 }
